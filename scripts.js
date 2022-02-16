@@ -1,4 +1,10 @@
 let js = 'amazing';
-if (js === 'amazing') alert('JavaScript is amazing!');
-
 console.log(40 + 8 + 23 - 10);
+
+console.log("jonas");
+console.log(23);
+
+let firstName = "justice";
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
