@@ -85,3 +85,34 @@
 
 // const averageAge = (ageJustice + ageAmahla) / 2;
 // console.log(ageJustice, ageAmahla, averageAge);
+
+//////////////////////
+
+// Coding Challenge #1
+
+// Mark and John are trying to compare their BMI (Body Mass Index), 
+// which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). 
+// (mass in kg and height in meter).
+
+// 1. Store Mark's and John's mass and height in variables.
+// 2. Calculate both their BMIs using the formula.
+// 3. Create a boolean variable 'markHigherBMI' containing information 
+// about whether Mark has a higher BMI than John. 
+
+// TEST DATA 1: Mark weights 78 kg and is 1.69 m tall.
+// John weighs 92 kg and is 1.95 m tall.
+// TEST DATA 2: Mark weighs 95 kg and is 1.88 tall.
+// John weighs 85 kg and is 1.76 m tall.
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMImark = massMark / heightMark ** 2;
+const BMIjohn = massJohn / heightJohn ** 2;
+
+let markHigherBMI = BMImark > BMIjohn;
+console.log("Does Mark have a higher BMI than John?: " + markHigherBMI);
+console.log("John's BMI: " + BMIjohn);
+console.log("Mark's BMI: " + BMImark);
