@@ -20,3 +20,10 @@ console.log(typeof language);
 language = 'english';
 console.log(typeof language);
 // isIsland = true; 
+
+// Basic Operators
+countrySplitInHalf = country / 2;
+console.log(country + 1);
+finlandPopulation = 6000000;
+isCountryBiggerThanFinland = country > finlandPopulation;
+let description = 'The USA is in North America, and its 330 million people speak english'
