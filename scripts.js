@@ -117,23 +117,42 @@
 // console.log("John's BMI: " + BMIjohn);
 // console.log("Mark's BMI: " + BMImark);
 
-const firstName = 'Justice';
-const job = 'teacher';
+// const firstName = 'Justice';
+// const job = 'teacher';
+// const birthYear = 1995;
+// const year = 2037;
+
+// const justice = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + ".";
+// console.log(justice);
+
+// const justiceNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}.`;
+// console.log(justiceNew);
+
+// console.log(`Just a regular string...`)
+
+// console.log('String with \n\
+// multiple \n\
+// lines');
+
+// console.log(`string
+// multiple
+// lines`);
+
+const age = 15;
+
+if(age >= 18) {
+  console.log(`Amahla can start driving license 🚗`)
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Amahla is too young. Wait another ${yearsLeft} years.`)
+}
+
 const birthYear = 1995;
-const year = 2037;
 
-const justice = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + ".";
-console.log(justice);
-
-const justiceNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}.`;
-console.log(justiceNew);
-
-console.log(`Just a regular string...`)
-
-console.log('String with \n\
-multiple \n\
-lines');
-
-console.log(`string
-multiple
-lines`);
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
