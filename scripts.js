@@ -104,15 +104,36 @@
 // TEST DATA 2: Mark weighs 95 kg and is 1.88 tall.
 // John weighs 85 kg and is 1.76 m tall.
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-const BMImark = massMark / heightMark ** 2;
-const BMIjohn = massJohn / heightJohn ** 2;
+// const BMImark = massMark / heightMark ** 2;
+// const BMIjohn = massJohn / heightJohn ** 2;
 
-let markHigherBMI = BMImark > BMIjohn;
-console.log("Does Mark have a higher BMI than John?: " + markHigherBMI);
-console.log("John's BMI: " + BMIjohn);
-console.log("Mark's BMI: " + BMImark);
+// let markHigherBMI = BMImark > BMIjohn;
+// console.log("Does Mark have a higher BMI than John?: " + markHigherBMI);
+// console.log("John's BMI: " + BMIjohn);
+// console.log("Mark's BMI: " + BMImark);
+
+const firstName = 'Justice';
+const job = 'teacher';
+const birthYear = 1995;
+const year = 2037;
+
+const justice = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + ".";
+console.log(justice);
+
+const justiceNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}.`;
+console.log(justiceNew);
+
+console.log(`Just a regular string...`)
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`string
+multiple
+lines`);
