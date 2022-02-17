@@ -73,15 +73,15 @@
 
 // console.log(now - 1991 > now - 2018);
 
-const now = 2037;
-const ageJustice = now - 1995;
-const ageAmahla = now - 1997;
+// const now = 2037;
+// const ageJustice = now - 1995;
+// const ageAmahla = now - 1997;
 
-console.log(now - 1991 > now - 2018);
+// console.log(now - 1991 > now - 2018);
 
-let x, y;
-x = y = 25 - 10 - 5; // x = y = 10, x = 10
-console.log(x, y);
+// let x, y;
+// x = y = 25 - 10 - 5; // x = y = 10, x = 10
+// console.log(x, y);
 
-const averageAge = (ageJustice + ageAmahla) / 2;
-console.log(ageJustice, ageAmahla, averageAge);
+// const averageAge = (ageJustice + ageAmahla) / 2;
+// console.log(ageJustice, ageAmahla, averageAge);
