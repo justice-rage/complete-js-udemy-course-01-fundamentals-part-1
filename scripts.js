@@ -177,24 +177,42 @@ Hint: Use an if/else statement
 // TEST DATA 2: Mark weighs 95 kg and is 1.88 tall.
 // John weighs 85 kg and is 1.76 m tall.
 
-const massMark = 95;
-const heightMark = 1.88;
-const massJohn = 85;
-const heightJohn = 1.76;
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
 
-const BMImark = massMark / heightMark ** 2;
-const BMIjohn = massJohn / heightJohn ** 2;
+// const BMImark = massMark / heightMark ** 2;
+// const BMIjohn = massJohn / heightJohn ** 2;
 
-let markHigherBMI = BMImark > BMIjohn;
+// let markHigherBMI = BMImark > BMIjohn;
 
-if (BMImark > BMIjohn) {
-  console.log(`Mark's BMI of ${BMImark} is higher than John's BMI of ${BMIjohn}!`);
-} else {
-  console.log(`John's BMI of ${BMIjohn} is higher than Mark's BMI of ${BMImark}!`);
-}
+// if (BMImark > BMIjohn) {
+//   console.log(`Mark's BMI of ${BMImark} is higher than John's BMI of ${BMIjohn}!`);
+// } else {
+//   console.log(`John's BMI of ${BMIjohn} is higher than Mark's BMI of ${BMImark}!`);
+// }
 
 // console.log("Does Mark have a higher BMI than John?: " + markHigherBMI);
 // console.log("John's BMI: " + BMIjohn);
 // console.log("Mark's BMI: " + BMImark);
 
 ///////////////////////////////
+
+const inputYear = `1991`;
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number(`Justice`));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// type coercion
+console.log(`I am ` + 23 + ` years old`);
+console.log(`23` - `10` - 3);
+console.log(`23` * `2`);
+
+let n = `1` + 1;
+n = n - 1;
+console.log(n);
