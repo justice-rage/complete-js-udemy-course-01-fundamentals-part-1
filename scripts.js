@@ -346,42 +346,52 @@ Test Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106.
 
 /////////////////////////////////////
 
-const day = 'monday';
+// const day = 'monday';
 
-switch(day) {
-  case 'monday': // day === 'monday'
-    console.log('Plan course structure');
-    console.log('Go to coding meetup');
-    break;
-  case 'tuesday':
-    console.log('Prepare theory videos');
-    break;
-  case 'wednesday':
-  case 'thursday':
-    console.log('Write code examples');
-    break;
-  case 'friday':
-    console.log('Record video');
-    break;
-  case 'saturday':
-  case 'sunday':
-    console.log('enjoy the weekend!');
-    break;
-  default:
-    console.log('not a valid date1');
+// switch(day) {
+//   case 'monday': // day === 'monday'
+//     console.log('Plan course structure');
+//     console.log('Go to coding meetup');
+//     break;
+//   case 'tuesday':
+//     console.log('Prepare theory videos');
+//     break;
+//   case 'wednesday':
+//   case 'thursday':
+//     console.log('Write code examples');
+//     break;
+//   case 'friday':
+//     console.log('Record video');
+//     break;
+//   case 'saturday':
+//   case 'sunday':
+//     console.log('enjoy the weekend!');
+//     break;
+//   default:
+//     console.log('not a valid date1');
+// }
+
+// if (day === 'monday') {
+//   console.log('Plan course structure');
+//   console.log('Go to coding meetup');
+// } else if(day === 'tuesday') {
+//   console.log('Prepare theory videos');
+// } else if (day === 'wednesday' || day === 'thursday') {
+//   console.log('Write code examples');
+// } else if (day === 'friday') {
+//   console.log('Record video');
+// } else if (day === 'saturday' || day === 'sunday') {
+//   console.log('enjoy the weekend!');
+// } else {
+//   console.log('not a valid date1');
+// }
+
+3 + 4
+1991
+true && false && !false
+
+if (23 > 10) {
+  const str = '23 is bigger';
 }
 
-if (day === 'monday') {
-  console.log('Plan course structure');
-  console.log('Go to coding meetup');
-} else if(day === 'tuesday') {
-  console.log('Prepare theory videos');
-} else if (day === 'wednesday' || day === 'thursday') {
-  console.log('Write code examples');
-} else if (day === 'friday') {
-  console.log('Record video');
-} else if (day === 'saturday' || day === 'sunday') {
-  console.log('enjoy the weekend!');
-} else {
-  console.log('not a valid date1');
-}
+console.log(`I'm ${2037 - 1991} years old`)
