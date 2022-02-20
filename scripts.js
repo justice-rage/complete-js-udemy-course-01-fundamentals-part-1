@@ -261,26 +261,87 @@ Hint: Use an if/else statement
 
 // if (favorite !== 23) console.log("why not 23?");
 
-const hasDriversLicense = true; // A
-const hasGoodVision = true; // B
+// const hasDriversLicense = true; // A
+// const hasGoodVision = true; // B
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
+// const shouldDrive = hasDriversLicense && hasGoodVision;
 
-// if(shouldDrive) {
+// // if(shouldDrive) {
+// //   console.log("Sarah is able to drive");
+// // } else {
+// //   console.log("Someone else should drive")
+// // }
+
+// const isTired = false; // C
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if(hasDriversLicense && hasGoodVision && !isTired) {
 //   console.log("Sarah is able to drive");
 // } else {
 //   console.log("Someone else should drive")
 // }
 
-const isTired = false; // C
-console.log(hasDriversLicense && hasGoodVision && isTired);
+///////////////////////////////////////////////
 
-if(hasDriversLicense && hasGoodVision && !isTired) {
-  console.log("Sarah is able to drive");
+// Coding Challenge #3
+
+/*
+There are two gymnastics teams, Dolphins and Koalas. They compete against eachother 3 times. The winner with the highest average score wins the trophy.
+
+1. Calculate the average score for each team, using the test data below.
+2. Compare the team's average scores to determine the winner of the competition, and print it to the console. Don't forget that there can be a draw, so test for that as well (draw means they have the same average score).
+
+3.BONUS 1: Include a requirement for a minimum score of 100. With this rule, a team only wins if it has a higher score than the other team, and the same time a score of at least a 100 points. HINT: Use a logical operator to tst the minimum score, as well as multiple else-if blocks.
+4. BONUS 2: Minimum score also applies to a draw! So a draw only happens when both teams have the same score and both have a score greater or equal to 100 points. Otherwise, no team wins the trophy.
+
+Test Data: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110.
+Test Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123.
+Test Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106.
+*/
+
+// Normal Challenege
+
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+
+if (scoreDolphins > scoreKoalas) {
+  console.log("The Dolphins win!");
+} else if (scoreDolphins < scoreKoalas) {
+  console.log("The Koalas win!");
 } else {
-  console.log("Someone else should drive")
+  console.log("It's a draw!");
 }
+
+// Bonus 1 Challenge
+
+const scoreDolphinsB1 = (97 + 112 + 101) / 3;
+const scoreKoalasB1 = (109 + 95 + 123) / 3;
+
+if (scoreDolphinsB1 > scoreKoalasB1 && scoreDolphinsB1 >= 100) {
+  console.log("The Dolphins win!");
+} else if (scoreDolphinsB1 < scoreKoalasB1 && scoreKoalasB1 >= 100) {
+  console.log("The Koalas win!");
+} else {
+  console.log("It's a draw!");
+}
+
+// Bonus 2 Challenge
+
+const scoreDolphinsB2 = (97 + 112 + 101) / 3;
+const scoreKoalasB2 = (109 + 95 + 106) / 3;
+
+if (scoreDolphinsB2 > scoreKoalasB2 && scoreDolphinsB2 >= 100) {
+  console.log("The Dolphins win!");
+} else if (scoreDolphinsB2 < scoreKoalasB2 && scoreKoalasB2 >= 100) {
+  console.log("The Koalas win!");
+} else if (scoreDolphinsB2 === scoreKoalasB2 && scoreKoalasB2 >= 100 && scoreDolphinsB2 >= 100) {
+  console.log("It's a draw!");
+} else {
+  console.log("Neither team met the minimum requirement of 100 points.");
+}
+
+/////////////////////////////////////
