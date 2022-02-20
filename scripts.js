@@ -305,43 +305,83 @@ Test Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106.
 
 // Normal Challenege
 
-const scoreDolphins = (96 + 108 + 89) / 3;
-const scoreKoalas = (88 + 91 + 110) / 3;
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
 
-if (scoreDolphins > scoreKoalas) {
-  console.log("The Dolphins win!");
-} else if (scoreDolphins < scoreKoalas) {
-  console.log("The Koalas win!");
-} else {
-  console.log("It's a draw!");
-}
+// if (scoreDolphins > scoreKoalas) {
+//   console.log("The Dolphins win!");
+// } else if (scoreDolphins < scoreKoalas) {
+//   console.log("The Koalas win!");
+// } else {
+//   console.log("It's a draw!");
+// }
 
-// Bonus 1 Challenge
+// // Bonus 1 Challenge
 
-const scoreDolphinsB1 = (97 + 112 + 101) / 3;
-const scoreKoalasB1 = (109 + 95 + 123) / 3;
+// const scoreDolphinsB1 = (97 + 112 + 101) / 3;
+// const scoreKoalasB1 = (109 + 95 + 123) / 3;
 
-if (scoreDolphinsB1 > scoreKoalasB1 && scoreDolphinsB1 >= 100) {
-  console.log("The Dolphins win!");
-} else if (scoreDolphinsB1 < scoreKoalasB1 && scoreKoalasB1 >= 100) {
-  console.log("The Koalas win!");
-} else {
-  console.log("It's a draw!");
-}
+// if (scoreDolphinsB1 > scoreKoalasB1 && scoreDolphinsB1 >= 100) {
+//   console.log("The Dolphins win!");
+// } else if (scoreDolphinsB1 < scoreKoalasB1 && scoreKoalasB1 >= 100) {
+//   console.log("The Koalas win!");
+// } else {
+//   console.log("It's a draw!");
+// }
 
-// Bonus 2 Challenge
+// // Bonus 2 Challenge
 
-const scoreDolphinsB2 = (97 + 112 + 101) / 3;
-const scoreKoalasB2 = (109 + 95 + 106) / 3;
+// const scoreDolphinsB2 = (97 + 112 + 101) / 3;
+// const scoreKoalasB2 = (109 + 95 + 106) / 3;
 
-if (scoreDolphinsB2 > scoreKoalasB2 && scoreDolphinsB2 >= 100) {
-  console.log("The Dolphins win!");
-} else if (scoreDolphinsB2 < scoreKoalasB2 && scoreKoalasB2 >= 100) {
-  console.log("The Koalas win!");
-} else if (scoreDolphinsB2 === scoreKoalasB2 && scoreKoalasB2 >= 100 && scoreDolphinsB2 >= 100) {
-  console.log("It's a draw!");
-} else {
-  console.log("Neither team met the minimum requirement of 100 points.");
-}
+// if (scoreDolphinsB2 > scoreKoalasB2 && scoreDolphinsB2 >= 100) {
+//   console.log("The Dolphins win!");
+// } else if (scoreDolphinsB2 < scoreKoalasB2 && scoreKoalasB2 >= 100) {
+//   console.log("The Koalas win!");
+// } else if (scoreDolphinsB2 === scoreKoalasB2 && scoreKoalasB2 >= 100 && scoreDolphinsB2 >= 100) {
+//   console.log("It's a draw!");
+// } else {
+//   console.log("Neither team met the minimum requirement of 100 points.");
+// }
 
 /////////////////////////////////////
+
+const day = 'monday';
+
+switch(day) {
+  case 'monday': // day === 'monday'
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+    break;
+  case 'tuesday':
+    console.log('Prepare theory videos');
+    break;
+  case 'wednesday':
+  case 'thursday':
+    console.log('Write code examples');
+    break;
+  case 'friday':
+    console.log('Record video');
+    break;
+  case 'saturday':
+  case 'sunday':
+    console.log('enjoy the weekend!');
+    break;
+  default:
+    console.log('not a valid date1');
+}
+
+if (day === 'monday') {
+  console.log('Plan course structure');
+  console.log('Go to coding meetup');
+} else if(day === 'tuesday') {
+  console.log('Prepare theory videos');
+} else if (day === 'wednesday' || day === 'thursday') {
+  console.log('Write code examples');
+} else if (day === 'friday') {
+  console.log('Record video');
+} else if (day === 'saturday' || day === 'sunday') {
+  console.log('enjoy the weekend!');
+} else {
+  console.log('not a valid date1');
+}
