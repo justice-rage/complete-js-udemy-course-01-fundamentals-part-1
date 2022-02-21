@@ -396,18 +396,30 @@ Test Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106.
 
 // console.log(`I'm ${2037 - 1991} years old`)
 
-const age = 17;
-// age >= 18 ? console.log(`I like to drink wine 🍷`) : console.log(`I like to drink water 💧`);
+// const age = 17;
+// // age >= 18 ? console.log(`I like to drink wine 🍷`) : console.log(`I like to drink water 💧`);
 
-const drink = age >= 18 ? `wine 🍷` : `water 💧`;
-console.log(drink);
+// const drink = age >= 18 ? `wine 🍷` : `water 💧`;
+// console.log(drink);
 
-let drink2;
-if (age >= 18) {
-  drink2 = `wine 🍷`;
-} else {
-  drink2 = `water 💧`;
-}
-console.log(drink2);
+// let drink2;
+// if (age >= 18) {
+//   drink2 = `wine 🍷`;
+// } else {
+//   drink2 = `water 💧`;
+// }
+// console.log(drink2);
 
-console.log(`I like to drink ${age >= 18 ? `wine 🍷` : `water 💧`}`)
+// console.log(`I like to drink ${age >= 18 ? `wine 🍷` : `water 💧`}`)
+
+/////////////////////////////////
+// Coding Challenge #4
+
+const bill = 275;
+// const tip = bill * .15;
+// const total = bill + tip;
+
+const tip = bill >= 300 || bill <= 50 ? bill * .2 : bill * .15;
+const total = bill + tip;
+
+console.log(`A bill of $${bill} equates to a $${tip} and a total of $${total}.`)
