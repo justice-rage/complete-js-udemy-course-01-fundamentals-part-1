@@ -63,16 +63,40 @@
 
 // Lecture: Logical Opertors
 
-const countryName = "USA";
-const continent = "North America";
-const countryPopulation = 330;
-const countryLanguage = "english";
-const isIsland = false;
+// const countryName = "USA";
+// const continent = "North America";
+// const countryPopulation = 330;
+// const countryLanguage = "english";
+// const isIsland = false;
 
-// let sarahCountryRequirements = ;
+// // let sarahCountryRequirements = ;
 
-if (countryLanguage === 'english' && countryPopulation < 50 && isIsland === false) {
-  console.log(`The ${countryName} meets Sarah's requirements.`);
-} else {
-  console.log(`The ${countryName} does not meet Sarah's requirements.`);
+// if (countryLanguage === 'english' && countryPopulation < 50 && isIsland === false) {
+//   console.log(`The ${countryName} meets Sarah's requirements.`);
+// } else {
+//   console.log(`The ${countryName} does not meet Sarah's requirements.`);
+// }
+
+// Lecture: The Switch Statement
+
+const language = 'chinese';
+
+switch(language) {
+  case 'chinese': // day === 'monday'
+    console.log('Most number of native speakers!');
+    break;
+  case 'spanish':
+    console.log('second place in number of native speakers.');
+    break;
+  case 'english':
+    console.log('third place');
+    break;
+  case 'hindi':
+    console.log('fourth place');
+    break;
+  case 'arabic':
+    console.log('fifth most spoken language');
+    break;
+  default:
+    console.log('great language too');
 }
