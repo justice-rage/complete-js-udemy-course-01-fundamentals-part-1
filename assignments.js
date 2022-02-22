@@ -51,12 +51,28 @@
 // console.log('123' < '57');
 // console.log(5 + 6 + '4' + 9 - 4 - 2);
 
-let numNeighbors = `1`;
+// let numNeighbors = `1`;
 
-if (parseInt(numNeighbors) === 1) {
-  console.log(`Only 1 border!`);
-} else if (numNeighbors > 1) {
-  console.log(`More than 1 border!`);
+// if (parseInt(numNeighbors) === 1) {
+//   console.log(`Only 1 border!`);
+// } else if (numNeighbors > 1) {
+//   console.log(`More than 1 border!`);
+// } else {
+//   console.log(`No borders!`);
+// }
+
+// Lecture: Logical Opertors
+
+const countryName = "USA";
+const continent = "North America";
+const countryPopulation = 330;
+const countryLanguage = "english";
+const isIsland = false;
+
+// let sarahCountryRequirements = ;
+
+if (countryLanguage === 'english' && countryPopulation < 50 && isIsland === false) {
+  console.log(`The ${countryName} meets Sarah's requirements.`);
 } else {
-  console.log(`No borders!`);
+  console.log(`The ${countryName} does not meet Sarah's requirements.`);
 }
