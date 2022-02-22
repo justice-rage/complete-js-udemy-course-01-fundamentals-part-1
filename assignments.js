@@ -29,18 +29,24 @@
 // let description = 'The USA is in North America, and its 330 million people speak english'
 
 // Lecture: Strings and Template Literals
-const countryName = "USA";
-const continent = "North America";
-const countryPopulation = 330;
-const countryLanguage = "english";
+// const countryName = "USA";
+// const continent = "North America";
+// const countryPopulation = 330;
+// const countryLanguage = "english";
 
-// let description = `The ${countryName} is in ${continent}, and its ${countryPopulation} million people speak ${countryLanguage}.`
+// // let description = `The ${countryName} is in ${continent}, and its ${countryPopulation} million people speak ${countryLanguage}.`
 
-// console.log(description);
+// // console.log(description);
 
-// Lecture: Taking Decisions: if/else Statements
+// // Lecture: Taking Decisions: if/else Statements
 
-if (countryPopulation > 33) {
-  console.log(`The ${countryName} has an above average population size.`)
-} else
-console.log(`The ${countryName} has a below average population size.`)
+// if (countryPopulation > 33) {
+//   console.log(`The ${countryName} has an above average population size.`)
+// } else
+// console.log(`The ${countryName} has a below average population size.`)
+
+console.log('9' - '5');
+console.log('19' - '13' + '17');
+console.log('19' - '13' + 17);
+console.log('123' < '57');
+console.log(5 + 6 + '4' + 9 - 4 - 2);
