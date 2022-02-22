@@ -34,6 +34,13 @@ const continent = "North America";
 const countryPopulation = 330;
 const countryLanguage = "english";
 
-let description = `The ${countryName} is in ${continent}, and its ${countryPopulation} million people speak ${countryLanguage}.`
+// let description = `The ${countryName} is in ${continent}, and its ${countryPopulation} million people speak ${countryLanguage}.`
 
-console.log(description);
+// console.log(description);
+
+// Lecture: Taking Decisions: if/else Statements
+
+if (countryPopulation > 33) {
+  console.log(`The ${countryName} has an above average population size.`)
+} else
+console.log(`The ${countryName} has a below average population size.`)
