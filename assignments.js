@@ -79,24 +79,34 @@
 
 // Lecture: The Switch Statement
 
-const language = 'chinese';
+// const language = 'chinese';
 
-switch(language) {
-  case 'chinese': // day === 'monday'
-    console.log('Most number of native speakers!');
-    break;
-  case 'spanish':
-    console.log('second place in number of native speakers.');
-    break;
-  case 'english':
-    console.log('third place');
-    break;
-  case 'hindi':
-    console.log('fourth place');
-    break;
-  case 'arabic':
-    console.log('fifth most spoken language');
-    break;
-  default:
-    console.log('great language too');
-}
+// switch(language) {
+//   case 'chinese': // day === 'monday'
+//     console.log('Most number of native speakers!');
+//     break;
+//   case 'spanish':
+//     console.log('second place in number of native speakers.');
+//     break;
+//   case 'english':
+//     console.log('third place');
+//     break;
+//   case 'hindi':
+//     console.log('fourth place');
+//     break;
+//   case 'arabic':
+//     console.log('fifth most spoken language');
+//     break;
+//   default:
+//     console.log('great language too');
+// }
+
+// Lecture: The Conditional (Ternary) Operator
+
+// const countryName = "USA";
+// const continent = "North America";
+// const countryPopulation = 330;
+// const countryLanguage = "english";
+// const isIsland = false;
+
+// countryPopulation > 33 ? console.log(`The population size of the ${countryName} is above average.`) : console.log(`The population size of the ${countryName} is below average.`);
