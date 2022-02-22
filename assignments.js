@@ -27,3 +27,13 @@
 // finlandPopulation = 6000000;
 // isCountryBiggerThanFinland = country > finlandPopulation;
 // let description = 'The USA is in North America, and its 330 million people speak english'
+
+// Lecture: Strings and Template Literals
+const countryName = "USA";
+const continent = "North America";
+const countryPopulation = 330;
+const countryLanguage = "english";
+
+let description = `The ${countryName} is in ${continent}, and its ${countryPopulation} million people speak ${countryLanguage}.`
+
+console.log(description);

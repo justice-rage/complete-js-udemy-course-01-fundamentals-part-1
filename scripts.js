@@ -415,11 +415,11 @@ Test Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106.
 /////////////////////////////////
 // Coding Challenge #4
 
-const bill = 275;
-// const tip = bill * .15;
+// const bill = 430;
+// // const tip = bill * .15;
+// // const total = bill + tip;
+
+// const tip = bill >= 300 || bill <= 50 ? bill * .2 : bill * .15;
 // const total = bill + tip;
 
-const tip = bill >= 300 || bill <= 50 ? bill * .2 : bill * .15;
-const total = bill + tip;
-
-console.log(`A bill of $${bill} equates to a $${tip} and a total of $${total}.`)
+// console.log(`A bill of $${bill} equates to a $${tip} and a total of $${total}.`)
