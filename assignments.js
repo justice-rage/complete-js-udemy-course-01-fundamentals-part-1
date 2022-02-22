@@ -45,8 +45,18 @@
 // } else
 // console.log(`The ${countryName} has a below average population size.`)
 
-console.log('9' - '5');
-console.log('19' - '13' + '17');
-console.log('19' - '13' + 17);
-console.log('123' < '57');
-console.log(5 + 6 + '4' + 9 - 4 - 2);
+// console.log('9' - '5');
+// console.log('19' - '13' + '17');
+// console.log('19' - '13' + 17);
+// console.log('123' < '57');
+// console.log(5 + 6 + '4' + 9 - 4 - 2);
+
+let numNeighbors = `1`;
+
+if (parseInt(numNeighbors) === 1) {
+  console.log(`Only 1 border!`);
+} else if (numNeighbors > 1) {
+  console.log(`More than 1 border!`);
+} else {
+  console.log(`No borders!`);
+}
